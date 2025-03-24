@@ -1,0 +1,59 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="B5BE6FC3-E6FE-1B2B-8D62-F43780D71EC5" name="PERMISSIONv1">
+<createdBy>13mig</createdBy>
+<createdTime>2025-03-24 02:13:09 UTC</createdTime>
+<generatorID>7CFC741A-7A9F-AF36-6BD3-8300EC06FDD6</generatorID>
+<ownerDesignName>car-link-data-model</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="id" id="DA0EF50C-DC2B-D158-1291-AF10A7F7E251">
+<createdBy>13mig</createdBy>
+<createdTime>2025-03-24 02:13:09 UTC</createdTime>
+<generatorID>E5A62AD3-7614-D069-8F78-6FF2FF1D5113</generatorID>
+<ownerDesignName>car-link-data-model</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="name" id="D4F76179-677D-F620-EE99-EB66E4FA6125">
+<createdBy>13mig</createdBy>
+<createdTime>2025-03-24 02:13:09 UTC</createdTime>
+<generatorID>627CD7FD-915A-DBDA-4917-705A62192A00</generatorID>
+<ownerDesignName>car-link-data-model</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>A3A3C77D-0366-9768-FF89-1C25E56881C8</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="description" id="66C10075-B73A-EED6-5741-E09E3B04C544">
+<createdBy>13mig</createdBy>
+<createdTime>2025-03-24 02:13:09 UTC</createdTime>
+<generatorID>9546DFE3-32E4-4707-1C85-04E0F6FBBD06</generatorID>
+<ownerDesignName>car-link-data-model</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>A3A3C77D-0366-9768-FF89-1C25E56881C8</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="C61733C5-AAEF-4597-3F40-A5071AB208E2" name="PERMISSIONv1_PK">
+<createdBy>13mig</createdBy>
+<createdTime>2025-03-24 02:13:09 UTC</createdTime>
+<generatorID>D31C3E08-B2EF-37FA-5BB2-9C4923049432</generatorID>
+<ownerDesignName>car-link-data-model</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="DA0EF50C-DC2B-D158-1291-AF10A7F7E251"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

@@ -1,0 +1,8 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<OSDM_Design class="oracle.dbtools.crest.model.design.Design" name="car-link-data-model" id="472E2665-4D33-176F-79FD-8DEB94C1491B" version="3.5">
+<createdBy>13mig</createdBy>
+<createdTime>2025-03-23 23:27:15 UTC</createdTime>
+<ownerDesignName>car-link-data-model</ownerDesignName>
+<capitalNames>false</capitalNames>
+<designId>472E2665-4D33-176F-79FD-8DEB94C1491B</designId>
+</OSDM_Design>

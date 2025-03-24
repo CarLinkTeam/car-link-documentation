@@ -1,0 +1,20 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="PERMISSION_ROLE" directorySegmentName="seg_0" id="10BCAB5B-2C43-B854-23F4-8D94064D4323">
+<createdBy>13mig</createdBy>
+<createdTime>2025-03-24 00:01:15 UTC</createdTime>
+<ownerDesignName>car-link-data-model</ownerDesignName>
+<engineerTo>
+<item key="92AE4B64-4236-B548-752E-D34790DEE8A1" value="true"/>
+</engineerTo>
+<identifying>false</identifying>
+<nameOnSource>has</nameOnSource>
+<nameOnTarget>has</nameOnTarget>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>*</sourceCardinality>
+<sourceEntity>7CFC741A-7A9F-AF36-6BD3-8300EC06FDD6</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>FCAC2CF8-EB8B-052F-F819-479C53E9206F</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

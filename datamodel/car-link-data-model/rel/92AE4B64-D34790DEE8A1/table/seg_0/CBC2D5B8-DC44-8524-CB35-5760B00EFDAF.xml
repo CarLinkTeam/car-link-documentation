@@ -1,0 +1,75 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="CBC2D5B8-DC44-8524-CB35-5760B00EFDAF" name="ROLE_USER">
+<createdBy>13mig</createdBy>
+<createdTime>2025-03-24 02:13:10 UTC</createdTime>
+<ownerDesignName>car-link-data-model</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="ROLE_id" id="9A91A092-0CE4-015B-DA21-A5DE86BA40F6">
+<createdBy>13mig</createdBy>
+<createdTime>2025-03-24 02:13:10 UTC</createdTime>
+<ownerDesignName>car-link-data-model</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="09A06643-1372-45E8-8A43-D67B06F447EA" referredColumn="05033083-9693-C184-126F-EF4BE15AF8A1"/>
+</associations>
+</Column>
+<Column name="USER_id" id="3F65AF7F-3E02-C104-9DE7-A1A917061DC5">
+<createdBy>13mig</createdBy>
+<createdTime>2025-03-24 02:13:10 UTC</createdTime>
+<ownerDesignName>car-link-data-model</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="E6ADCB77-B91A-99F3-4D9F-9E498FC1476F" referredColumn="071E90B3-E96D-B443-A774-B577E2CDF38C"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="55C36622-200A-FE96-7339-E197FC12C230" name="ROLE_USER_PK">
+<createdBy>13mig</createdBy>
+<createdTime>2025-03-24 02:13:10 UTC</createdTime>
+<ownerDesignName>car-link-data-model</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="9A91A092-0CE4-015B-DA21-A5DE86BA40F6"/>
+<colUsage columnID="3F65AF7F-3E02-C104-9DE7-A1A917061DC5"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="4D866363-EFC1-012C-9791-BF95C8754799" name="ROLE_USER_ROLE_FK">
+<createdBy>13mig</createdBy>
+<createdTime>2025-03-24 02:13:10 UTC</createdTime>
+<generatorID>6F21BAFB-9012-1754-C6D5-4B279C8934A4</generatorID>
+<ownerDesignName>car-link-data-model</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="9A91A092-0CE4-015B-DA21-A5DE86BA40F6"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="E1BD5D75-4956-4885-2C37-C5526373D2F9" name="ROLE_USER_USER_FK">
+<createdBy>13mig</createdBy>
+<createdTime>2025-03-24 02:13:10 UTC</createdTime>
+<generatorID>6F21BAFB-9012-1754-C6D5-4B279C8934A4</generatorID>
+<ownerDesignName>car-link-data-model</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="3F65AF7F-3E02-C104-9DE7-A1A917061DC5"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

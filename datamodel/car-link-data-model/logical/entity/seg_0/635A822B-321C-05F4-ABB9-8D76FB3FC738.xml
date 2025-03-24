@@ -1,0 +1,160 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="635A822B-321C-05F4-ABB9-8D76FB3FC738" name="REVIEW">
+<createdBy>13mig</createdBy>
+<createdTime>2025-03-24 01:30:20 UTC</createdTime>
+<ownerDesignName>car-link-data-model</ownerDesignName>
+<engineerTo>
+<item key="92AE4B64-4236-B548-752E-D34790DEE8A1" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="id" id="58DADA35-1E95-4FFA-6125-C2E0A0592AE2">
+<createdBy>13mig</createdBy>
+<createdTime>2025-03-24 01:31:00 UTC</createdTime>
+<ownerDesignName>car-link-data-model</ownerDesignName>
+<engineerTo>
+<item key="92AE4B64-4236-B548-752E-D34790DEE8A1" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="rental_id" id="FA1A84EB-5986-23D1-696D-58C750ECFCD4">
+<createdBy>13mig</createdBy>
+<createdTime>2025-03-24 01:31:09 UTC</createdTime>
+<ownerDesignName>car-link-data-model</ownerDesignName>
+<engineerTo>
+<item key="92AE4B64-4236-B548-752E-D34790DEE8A1" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="user_id" id="F7786628-1AB4-FB78-1AA5-32A63F07F8CA">
+<createdBy>13mig</createdBy>
+<createdTime>2025-03-24 01:31:39 UTC</createdTime>
+<ownerDesignName>car-link-data-model</ownerDesignName>
+<engineerTo>
+<item key="92AE4B64-4236-B548-752E-D34790DEE8A1" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="vehicle_id" id="84CA816C-5CEF-3D7C-7752-F61CE84CC7E3">
+<createdBy>13mig</createdBy>
+<createdTime>2025-03-24 01:31:45 UTC</createdTime>
+<ownerDesignName>car-link-data-model</ownerDesignName>
+<engineerTo>
+<item key="92AE4B64-4236-B548-752E-D34790DEE8A1" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="rating" id="A86AB83E-A5C1-15FB-8809-1F9EB2FC502E">
+<createdBy>13mig</createdBy>
+<createdTime>2025-03-24 01:32:00 UTC</createdTime>
+<ownerDesignName>car-link-data-model</ownerDesignName>
+<engineerTo>
+<item key="92AE4B64-4236-B548-752E-D34790DEE8A1" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="comment" id="7F7548A4-9A75-53C1-6710-EA98FE536335">
+<createdBy>13mig</createdBy>
+<createdTime>2025-03-24 01:32:31 UTC</createdTime>
+<ownerDesignName>car-link-data-model</ownerDesignName>
+<engineerTo>
+<item key="92AE4B64-4236-B548-752E-D34790DEE8A1" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>A3A3C77D-0366-9768-FF89-1C25E56881C8</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="date" id="1829F399-E90B-5060-FFEC-2E93FAF54B02">
+<createdBy>13mig</createdBy>
+<createdTime>2025-03-24 01:32:47 UTC</createdTime>
+<ownerDesignName>car-link-data-model</ownerDesignName>
+<engineerTo>
+<item key="92AE4B64-4236-B548-752E-D34790DEE8A1" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT008</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="id1" id="61EA9907-5080-DB93-2404-757FAC66CD82">
+<createdBy>13mig</createdBy>
+<createdTime>2025-03-24 01:35:08 UTC</createdTime>
+<generatorID>82F01B01-F9B0-647F-1A1C-B423ED61F92F</generatorID>
+<ownerDesignName>car-link-data-model</ownerDesignName>
+<engineerTo>
+<item key="92AE4B64-4236-B548-752E-D34790DEE8A1" value="true"/>
+</engineerTo>
+<referedAttribute>DC0827ED-8C9C-46A8-140B-4767A6A7911E</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="id2" id="BE69CFC5-BBC2-F377-D40C-305FA709AA27">
+<createdBy>13mig</createdBy>
+<createdTime>2025-03-24 01:35:35 UTC</createdTime>
+<generatorID>095ABE66-7DD6-2A3D-D5A4-A7CBF830BA24</generatorID>
+<ownerDesignName>car-link-data-model</ownerDesignName>
+<engineerTo>
+<item key="92AE4B64-4236-B548-752E-D34790DEE8A1" value="true"/>
+</engineerTo>
+<referedAttribute>30188E9C-CB58-D886-1200-FE2339FCCF2B</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="id3" id="9EBD1178-BAE0-3D8A-09E0-2A7F55070A50">
+<createdBy>13mig</createdBy>
+<createdTime>2025-03-24 01:35:54 UTC</createdTime>
+<generatorID>7AD9C488-8E2E-B559-0CAB-FA45615928B3</generatorID>
+<ownerDesignName>car-link-data-model</ownerDesignName>
+<engineerTo>
+<item key="92AE4B64-4236-B548-752E-D34790DEE8A1" value="true"/>
+</engineerTo>
+<referedAttribute>EEAB5948-B0E0-FEC8-35E5-D91DA6606356</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="6B88DC2F-8A90-74D5-C438-4DCC8C758036" name="REVIEW PK">
+<createdBy>13mig</createdBy>
+<createdTime>2025-03-24 01:31:14 UTC</createdTime>
+<ownerDesignName>car-link-data-model</ownerDesignName>
+<engineerTo>
+<item key="92AE4B64-4236-B548-752E-D34790DEE8A1" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>58DADA35-1E95-4FFA-6125-C2E0A0592AE2</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>
