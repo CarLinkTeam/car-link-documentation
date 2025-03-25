@@ -1,9 +1,10 @@
 <?xml version = '1.0' encoding = 'UTF-8'?>
-<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="F6C9DEE7-ED52-01BC-46C6-F6629EF6E68F" name="RENTAL">
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="F6C9DEE7-ED52-01BC-46C6-F6629EF6E68F" name="RENTALS">
 <createdBy>13mig</createdBy>
 <createdTime>2025-03-24 02:13:09 UTC</createdTime>
 <generatorID>89F374E1-D7A3-1186-8E13-D1A029517D39</generatorID>
 <ownerDesignName>car-link-data-model</ownerDesignName>
+<ordsAlias>rental</ordsAlias>
 <allowColumnReorder>false</allowColumnReorder>
 <existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
 <parsed>true</parsed>
@@ -12,28 +13,6 @@
 <createdBy>13mig</createdBy>
 <createdTime>2025-03-24 02:13:09 UTC</createdTime>
 <generatorID>DC0827ED-8C9C-46A8-140B-4767A6A7911E</generatorID>
-<ownerDesignName>car-link-data-model</ownerDesignName>
-<useDomainConstraints>false</useDomainConstraints>
-<use>1</use>
-<logicalDatatype>LOGDT011</logicalDatatype>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
-<autoIncrementCycle>false</autoIncrementCycle>
-</Column>
-<Column name="vehicle_id" id="47754905-3026-FAA0-3D77-3D6D67FDEA16">
-<createdBy>13mig</createdBy>
-<createdTime>2025-03-24 02:13:09 UTC</createdTime>
-<generatorID>D254507A-E387-97AF-E2DD-139F5169F8B5</generatorID>
-<ownerDesignName>car-link-data-model</ownerDesignName>
-<useDomainConstraints>false</useDomainConstraints>
-<use>1</use>
-<logicalDatatype>LOGDT011</logicalDatatype>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
-<autoIncrementCycle>false</autoIncrementCycle>
-</Column>
-<Column name="client_id" id="23B3CD42-6E7B-40B6-8F3D-CD42923781F8">
-<createdBy>13mig</createdBy>
-<createdTime>2025-03-24 02:13:09 UTC</createdTime>
-<generatorID>C2BBDE37-8047-2B1A-8247-54FDD9E2ECDC</generatorID>
 <ownerDesignName>car-link-data-model</ownerDesignName>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
@@ -63,7 +42,7 @@
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
 </Column>
-<Column name="cost" id="FFE61BB1-AEA2-0B26-0CA9-5FC7281B3B1C">
+<Column name="total_cost" id="FFE61BB1-AEA2-0B26-0CA9-5FC7281B3B1C">
 <createdBy>13mig</createdBy>
 <createdTime>2025-03-24 02:13:09 UTC</createdTime>
 <generatorID>2B85F463-2CF0-CAD4-87B9-7D8BB26BFD66</generatorID>
@@ -73,21 +52,6 @@
 <logicalDatatype>LOGDT020</logicalDatatype>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
-</Column>
-<Column name="USER_id" id="182CC824-79E8-EF1F-16C6-575F49B27D58">
-<createdBy>13mig</createdBy>
-<createdTime>2025-03-24 02:13:09 UTC</createdTime>
-<generatorID>C5C9B650-0C34-5C50-50DE-A06389BE6440</generatorID>
-<ownerDesignName>car-link-data-model</ownerDesignName>
-<useDomainConstraints>false</useDomainConstraints>
-<use>1</use>
-<logicalDatatype>LOGDT011</logicalDatatype>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
-<previousColumn>false</previousColumn>
-<autoIncrementCycle>false</autoIncrementCycle>
-<associations>
-<colAssociation fkAssociation="DA72007C-54D8-046B-1EB1-8FCA779FF5B6" referredColumn="071E90B3-E96D-B443-A774-B577E2CDF38C"/>
-</associations>
 </Column>
 <Column name="type_fuel" id="68103822-1328-8AFC-35AA-D46D7CFC9D96">
 <createdBy>13mig</createdBy>
@@ -122,7 +86,36 @@
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
 </Column>
-<Column name="STATUS_id" id="DA6B0B1F-9E46-2E36-C3BB-E9F9932C09C2">
+<Column name="client_id" id="182CC824-79E8-EF1F-16C6-575F49B27D58">
+<createdBy>13mig</createdBy>
+<createdTime>2025-03-24 02:13:09 UTC</createdTime>
+<generatorID>C5C9B650-0C34-5C50-50DE-A06389BE6440</generatorID>
+<ownerDesignName>car-link-data-model</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="DA72007C-54D8-046B-1EB1-8FCA779FF5B6" referredColumn="071E90B3-E96D-B443-A774-B577E2CDF38C"/>
+</associations>
+</Column>
+<Column name="vehicle_id" id="597E79CA-1681-6153-F4D7-5B4FD063FB0C">
+<createdBy>Juan David Colonia</createdBy>
+<createdTime>2025-03-25 05:00:03 UTC</createdTime>
+<ownerDesignName>car-link-data-model</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="F5DF6FF7-2748-57A4-478B-A1B36A7BAB55" referredColumn="1F61621D-7FAD-6B27-8FB8-0EB7C10F355F"/>
+</associations>
+</Column>
+<Column name="status_id" id="DA6B0B1F-9E46-2E36-C3BB-E9F9932C09C2">
 <createdBy>13mig</createdBy>
 <createdTime>2025-03-24 02:13:09 UTC</createdTime>
 <generatorID>54E306B8-7FD3-88AB-F8DE-6740175CF7B2</generatorID>
@@ -171,6 +164,17 @@
 <isSurrogateKey>false</isSurrogateKey>
 <indexColumnUsage>
 <colUsage columnID="182CC824-79E8-EF1F-16C6-575F49B27D58"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="0AB1C10B-8291-F3C6-C6FB-925CF5617722" name="RENTALS_VEHICLES_FK">
+<createdBy>Juan David Colonia</createdBy>
+<createdTime>2025-03-25 05:00:03 UTC</createdTime>
+<generatorID>B377851F-B45F-14DC-4BBC-54242308C9E8</generatorID>
+<ownerDesignName>car-link-data-model</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="597E79CA-1681-6153-F4D7-5B4FD063FB0C"/>
 </indexColumnUsage>
 </ind_PK_UK>
 </indexes>

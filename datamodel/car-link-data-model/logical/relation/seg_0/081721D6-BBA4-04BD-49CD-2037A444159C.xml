@@ -8,8 +8,8 @@
 </engineerTo>
 <sourcePk>D839DDB1-DEA3-569C-4B10-22AEF984DCF1</sourcePk>
 <identifying>false</identifying>
-<nameOnSource>has</nameOnSource>
-<nameOnTarget>belongs to</nameOnTarget>
+<nameOnSource>makes rental</nameOnSource>
+<nameOnTarget>rented by</nameOnTarget>
 <optionalSource>true</optionalSource>
 <optionalTarget>false</optionalTarget>
 <sourceCardinality>1</sourceCardinality>

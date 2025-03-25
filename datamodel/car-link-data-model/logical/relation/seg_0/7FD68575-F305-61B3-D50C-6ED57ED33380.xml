@@ -7,10 +7,9 @@
 <item key="92AE4B64-4236-B548-752E-D34790DEE8A1" value="true"/>
 </engineerTo>
 <sourcePk>B78B996E-2582-924B-AC16-F19C81B97F72</sourcePk>
-<targetPk>181D08FC-1190-231C-E887-6CBCA932C38B</targetPk>
 <identifying>false</identifying>
-<nameOnSource>has</nameOnSource>
-<nameOnTarget>belong to</nameOnTarget>
+<nameOnSource>belongs to</nameOnSource>
+<nameOnTarget>has</nameOnTarget>
 <optionalSource>true</optionalSource>
 <optionalTarget>false</optionalTarget>
 <sourceCardinality>1</sourceCardinality>

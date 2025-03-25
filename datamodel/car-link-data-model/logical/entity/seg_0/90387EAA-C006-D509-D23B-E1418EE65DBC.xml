@@ -1,0 +1,83 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="90387EAA-C006-D509-D23B-E1418EE65DBC" name="VEHICLE UNAVAILABILITY">
+<createdBy>Juan David Colonia</createdBy>
+<createdTime>2025-03-25 04:30:55 UTC</createdTime>
+<ownerDesignName>car-link-data-model</ownerDesignName>
+<engineerTo>
+<item key="92AE4B64-4236-B548-752E-D34790DEE8A1" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="id" id="97F9DD6D-0532-B94E-ADBA-C767C7972699">
+<createdBy>Juan David Colonia</createdBy>
+<createdTime>2025-03-25 04:30:59 UTC</createdTime>
+<ownerDesignName>car-link-data-model</ownerDesignName>
+<engineerTo>
+<item key="92AE4B64-4236-B548-752E-D34790DEE8A1" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="unavailable_from" id="54DE7CB7-7650-D52C-EB92-1728080B9F57">
+<createdBy>Juan David Colonia</createdBy>
+<createdTime>2025-03-25 04:31:05 UTC</createdTime>
+<ownerDesignName>car-link-data-model</ownerDesignName>
+<engineerTo>
+<item key="92AE4B64-4236-B548-752E-D34790DEE8A1" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT008</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="unavailable_to" id="F3D578D5-5A2F-4F9B-68C3-D7102765517E">
+<createdBy>Juan David Colonia</createdBy>
+<createdTime>2025-03-25 04:31:30 UTC</createdTime>
+<ownerDesignName>car-link-data-model</ownerDesignName>
+<engineerTo>
+<item key="92AE4B64-4236-B548-752E-D34790DEE8A1" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT008</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="id1" id="FC24C6D1-77D9-DB6E-4879-4F41F495BB73">
+<createdBy>Juan David Colonia</createdBy>
+<createdTime>2025-03-25 04:41:33 UTC</createdTime>
+<generatorID>03EC23AF-2FB6-D1FB-2715-AE2C3F58A9B0</generatorID>
+<ownerDesignName>car-link-data-model</ownerDesignName>
+<engineerTo>
+<item key="92AE4B64-4236-B548-752E-D34790DEE8A1" value="true"/>
+</engineerTo>
+<referedAttribute>EEAB5948-B0E0-FEC8-35E5-D91DA6606356</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="9EE0D8BA-4377-0832-76B4-1790FBE537C0" name="VEHICLE_AVAILABILITY PK">
+<createdBy>Juan David Colonia</createdBy>
+<createdTime>2025-03-25 04:31:05 UTC</createdTime>
+<ownerDesignName>car-link-data-model</ownerDesignName>
+<engineerTo>
+<item key="92AE4B64-4236-B548-752E-D34790DEE8A1" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>97F9DD6D-0532-B94E-ADBA-C767C7972699</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

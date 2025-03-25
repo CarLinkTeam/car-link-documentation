@@ -39,6 +39,32 @@
 <logicalDatatype>LOGDT011</logicalDatatype>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
+<Attribute name="license_plate" id="17312522-68F5-6016-B084-2352DD5887D0">
+<createdBy>13mig</createdBy>
+<createdTime>2025-03-24 02:03:21 UTC</createdTime>
+<ownerDesignName>car-link-data-model</ownerDesignName>
+<engineerTo>
+<item key="92AE4B64-4236-B548-752E-D34790DEE8A1" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>10</dataTypeSize>
+<ownDataTypeParameters>10,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="make" id="9763BAA0-2262-54CC-BE6E-C699DFA86A60">
+<createdBy>13mig</createdBy>
+<createdTime>2025-03-24 00:29:42 UTC</createdTime>
+<ownerDesignName>car-link-data-model</ownerDesignName>
+<engineerTo>
+<item key="92AE4B64-4236-B548-752E-D34790DEE8A1" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100</dataTypeSize>
+<ownDataTypeParameters>100,,</ownDataTypeParameters>
+</Attribute>
 <Attribute name="model" id="D202F2CE-B93A-29DD-C86B-FAF280DAB617">
 <createdBy>13mig</createdBy>
 <createdTime>2025-03-24 00:27:50 UTC</createdTime>
@@ -48,19 +74,20 @@
 </engineerTo>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
-<logicalDatatype>A3A3C77D-0366-9768-FF89-1C25E56881C8</logicalDatatype>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100</dataTypeSize>
+<ownDataTypeParameters>100,,</ownDataTypeParameters>
 </Attribute>
-<Attribute name="manufacturer" id="9763BAA0-2262-54CC-BE6E-C699DFA86A60">
+<Attribute name="year" id="B88E24B4-03E0-D41B-D108-D8BCFA560E4F">
 <createdBy>13mig</createdBy>
-<createdTime>2025-03-24 00:29:42 UTC</createdTime>
+<createdTime>2025-03-24 00:30:57 UTC</createdTime>
 <ownerDesignName>car-link-data-model</ownerDesignName>
 <engineerTo>
 <item key="92AE4B64-4236-B548-752E-D34790DEE8A1" value="true"/>
 </engineerTo>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
-<logicalDatatype>A3A3C77D-0366-9768-FF89-1C25E56881C8</logicalDatatype>
+<logicalDatatype>LOGDT011</logicalDatatype>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
 <Attribute name="color" id="7952EDDA-6E31-7E8A-1752-6AE47A57FEF9">
@@ -75,16 +102,122 @@
 <logicalDatatype>A3A3C77D-0366-9768-FF89-1C25E56881C8</logicalDatatype>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
-<Attribute name="year" id="B88E24B4-03E0-D41B-D108-D8BCFA560E4F">
-<createdBy>13mig</createdBy>
-<createdTime>2025-03-24 00:30:57 UTC</createdTime>
+<Attribute name="daily_price" id="6BF775B5-3DC4-5A64-D00C-B70528BB7784">
+<createdBy>Juan David Colonia</createdBy>
+<createdTime>2025-03-25 04:13:59 UTC</createdTime>
 <ownerDesignName>car-link-data-model</ownerDesignName>
 <engineerTo>
 <item key="92AE4B64-4236-B548-752E-D34790DEE8A1" value="true"/>
 </engineerTo>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
-<logicalDatatype>LOGDT011</logicalDatatype>
+<logicalDatatype>LOGDT020</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="rental_conditions" id="475E755C-C294-FACA-A823-A7D65C38BE44">
+<createdBy>Juan David Colonia</createdBy>
+<createdTime>2025-03-25 04:21:21 UTC</createdTime>
+<ownerDesignName>car-link-data-model</ownerDesignName>
+<engineerTo>
+<item key="92AE4B64-4236-B548-752E-D34790DEE8A1" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT040</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="url_photos" id="25F18B77-2A5A-D196-3DFF-5E82ABF98774">
+<createdBy>13mig</createdBy>
+<createdTime>2025-03-24 02:03:42 UTC</createdTime>
+<ownerDesignName>car-link-data-model</ownerDesignName>
+<engineerTo>
+<item key="92AE4B64-4236-B548-752E-D34790DEE8A1" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>255</dataTypeSize>
+<ownDataTypeParameters>255,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="class" id="6654FE1F-F8FE-4C80-27A6-B07B45D50D5E">
+<createdBy>Juan David Colonia</createdBy>
+<createdTime>2025-03-25 04:13:27 UTC</createdTime>
+<ownerDesignName>car-link-data-model</ownerDesignName>
+<engineerTo>
+<item key="92AE4B64-4236-B548-752E-D34790DEE8A1" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100</dataTypeSize>
+<ownDataTypeParameters>100,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="drive" id="443417A2-B895-38D1-C616-C1253F5EF5B2">
+<createdBy>Juan David Colonia</createdBy>
+<createdTime>2025-03-25 04:14:28 UTC</createdTime>
+<ownerDesignName>car-link-data-model</ownerDesignName>
+<engineerTo>
+<item key="92AE4B64-4236-B548-752E-D34790DEE8A1" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100</dataTypeSize>
+<ownDataTypeParameters>100,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="fuel_type" id="00C34D50-476E-04F9-72B3-39A9BCF74742">
+<createdBy>Juan David Colonia</createdBy>
+<createdTime>2025-03-25 04:14:38 UTC</createdTime>
+<ownerDesignName>car-link-data-model</ownerDesignName>
+<engineerTo>
+<item key="92AE4B64-4236-B548-752E-D34790DEE8A1" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="transmission" id="2E7ABBD6-E327-FE94-C287-7CEBC220AD0F">
+<createdBy>Juan David Colonia</createdBy>
+<createdTime>2025-03-25 04:14:47 UTC</createdTime>
+<ownerDesignName>car-link-data-model</ownerDesignName>
+<engineerTo>
+<item key="92AE4B64-4236-B548-752E-D34790DEE8A1" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100</dataTypeSize>
+<ownDataTypeParameters>100,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="combination_mpg" id="DB672900-7A72-3B60-B171-DA56C85305A4">
+<createdBy>Juan David Colonia</createdBy>
+<createdTime>2025-03-25 04:13:39 UTC</createdTime>
+<ownerDesignName>car-link-data-model</ownerDesignName>
+<engineerTo>
+<item key="92AE4B64-4236-B548-752E-D34790DEE8A1" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT020</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="displacement" id="DF8D008A-E9CE-C3F0-4545-997FF4F8CD68">
+<createdBy>Juan David Colonia</createdBy>
+<createdTime>2025-03-25 04:13:47 UTC</createdTime>
+<ownerDesignName>car-link-data-model</ownerDesignName>
+<engineerTo>
+<item key="92AE4B64-4236-B548-752E-D34790DEE8A1" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT020</logicalDatatype>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
 <Attribute name="id1" id="651F4AEA-EDBF-5F6B-2C78-7ECF30C59349">
@@ -101,38 +234,15 @@
 <logicalDatatype>LOGDT011</logicalDatatype>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
-<Attribute name="license_plate" id="17312522-68F5-6016-B084-2352DD5887D0">
-<createdBy>13mig</createdBy>
-<createdTime>2025-03-24 02:03:21 UTC</createdTime>
-<ownerDesignName>car-link-data-model</ownerDesignName>
-<engineerTo>
-<item key="92AE4B64-4236-B548-752E-D34790DEE8A1" value="true"/>
-</engineerTo>
-<useDomainConstraints>false</useDomainConstraints>
-<use>1</use>
-<logicalDatatype>A3A3C77D-0366-9768-FF89-1C25E56881C8</logicalDatatype>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
-</Attribute>
-<Attribute name="license_plate_photo" id="25F18B77-2A5A-D196-3DFF-5E82ABF98774">
-<createdBy>13mig</createdBy>
-<createdTime>2025-03-24 02:03:42 UTC</createdTime>
-<ownerDesignName>car-link-data-model</ownerDesignName>
-<engineerTo>
-<item key="92AE4B64-4236-B548-752E-D34790DEE8A1" value="true"/>
-</engineerTo>
-<useDomainConstraints>false</useDomainConstraints>
-<use>1</use>
-<logicalDatatype>LOGDT010</logicalDatatype>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
-</Attribute>
 </attributes>
 <identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
 <identifier id="B377851F-B45F-14DC-4BBC-54242308C9E8" name="VEHICLE PK">
 <createdBy>13mig</createdBy>
 <createdTime>2025-03-24 00:31:19 UTC</createdTime>
 <ownerDesignName>car-link-data-model</ownerDesignName>
+<shouldEngineer>false</shouldEngineer>
 <engineerTo>
-<item key="92AE4B64-4236-B548-752E-D34790DEE8A1" value="true"/>
+<item key="92AE4B64-4236-B548-752E-D34790DEE8A1" value="false"/>
 </engineerTo>
 <pk>true</pk>
 <usedAttributes>

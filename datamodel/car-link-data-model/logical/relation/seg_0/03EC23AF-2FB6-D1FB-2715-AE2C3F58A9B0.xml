@@ -1,21 +1,21 @@
 <?xml version = '1.0' encoding = 'UTF-8'?>
-<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="USER_REVIEW" directorySegmentName="seg_0" id="095ABE66-7DD6-2A3D-D5A4-A7CBF830BA24">
-<createdBy>13mig</createdBy>
-<createdTime>2025-03-24 01:35:35 UTC</createdTime>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="Relation_9" directorySegmentName="seg_0" id="03EC23AF-2FB6-D1FB-2715-AE2C3F58A9B0">
+<createdBy>Juan David Colonia</createdBy>
+<createdTime>2025-03-25 04:32:30 UTC</createdTime>
 <ownerDesignName>car-link-data-model</ownerDesignName>
 <engineerTo>
 <item key="92AE4B64-4236-B548-752E-D34790DEE8A1" value="true"/>
 </engineerTo>
-<sourcePk>D839DDB1-DEA3-569C-4B10-22AEF984DCF1</sourcePk>
+<sourcePk>B377851F-B45F-14DC-4BBC-54242308C9E8</sourcePk>
 <identifying>false</identifying>
 <nameOnSource>has</nameOnSource>
-<nameOnTarget>belongs to</nameOnTarget>
+<nameOnTarget>is related</nameOnTarget>
 <optionalSource>true</optionalSource>
 <optionalTarget>false</optionalTarget>
 <sourceCardinality>1</sourceCardinality>
-<sourceEntity>6084C860-65F1-6531-DF40-B3FA4986C28E</sourceEntity>
+<sourceEntity>2FFC743F-F69F-E21B-7BD9-DBE9A25E345B</sourceEntity>
 <targetCardinalityString>*</targetCardinalityString>
-<targetEntity>635A822B-321C-05F4-ABB9-8D76FB3FC738</targetEntity>
+<targetEntity>90387EAA-C006-D509-D23B-E1418EE65DBC</targetEntity>
 <transferable>true</transferable>
 <deleteRule>NO ACTION</deleteRule>
 </Relation>

@@ -36,8 +36,9 @@
 </engineerTo>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
-<logicalDatatype>A3A3C77D-0366-9768-FF89-1C25E56881C8</logicalDatatype>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100</dataTypeSize>
+<ownDataTypeParameters>100,,</ownDataTypeParameters>
 </Attribute>
 </attributes>
 <identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
@@ -45,8 +46,9 @@
 <createdBy>13mig</createdBy>
 <createdTime>2025-03-24 00:31:26 UTC</createdTime>
 <ownerDesignName>car-link-data-model</ownerDesignName>
+<shouldEngineer>false</shouldEngineer>
 <engineerTo>
-<item key="92AE4B64-4236-B548-752E-D34790DEE8A1" value="true"/>
+<item key="92AE4B64-4236-B548-752E-D34790DEE8A1" value="false"/>
 </engineerTo>
 <pk>true</pk>
 <usedAttributes>

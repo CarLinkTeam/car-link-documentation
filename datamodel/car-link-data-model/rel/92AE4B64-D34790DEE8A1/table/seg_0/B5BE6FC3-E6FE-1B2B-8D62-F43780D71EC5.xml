@@ -1,9 +1,10 @@
 <?xml version = '1.0' encoding = 'UTF-8'?>
-<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="B5BE6FC3-E6FE-1B2B-8D62-F43780D71EC5" name="PERMISSIONv1">
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="B5BE6FC3-E6FE-1B2B-8D62-F43780D71EC5" name="PERMISSIONS">
 <createdBy>13mig</createdBy>
 <createdTime>2025-03-24 02:13:09 UTC</createdTime>
 <generatorID>7CFC741A-7A9F-AF36-6BD3-8300EC06FDD6</generatorID>
 <ownerDesignName>car-link-data-model</ownerDesignName>
+<ordsAlias>permissionv2</ordsAlias>
 <allowColumnReorder>false</allowColumnReorder>
 <existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
 <parsed>true</parsed>
@@ -26,8 +27,9 @@
 <ownerDesignName>car-link-data-model</ownerDesignName>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
-<logicalDatatype>A3A3C77D-0366-9768-FF89-1C25E56881C8</logicalDatatype>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100</dataTypeSize>
+<ownDataTypeParameters>100,,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
 </Column>
 <Column name="description" id="66C10075-B73A-EED6-5741-E09E3B04C544">
@@ -37,13 +39,14 @@
 <ownerDesignName>car-link-data-model</ownerDesignName>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
-<logicalDatatype>A3A3C77D-0366-9768-FF89-1C25E56881C8</logicalDatatype>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>255</dataTypeSize>
+<ownDataTypeParameters>255,,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
 </Column>
 </columns>
 <indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
-<ind_PK_UK id="C61733C5-AAEF-4597-3F40-A5071AB208E2" name="PERMISSIONv1_PK">
+<ind_PK_UK id="C61733C5-AAEF-4597-3F40-A5071AB208E2" name="PERMISSION_PK">
 <createdBy>13mig</createdBy>
 <createdTime>2025-03-24 02:13:09 UTC</createdTime>
 <generatorID>D31C3E08-B2EF-37FA-5BB2-9C4923049432</generatorID>

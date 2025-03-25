@@ -7,7 +7,7 @@
 <item key="92AE4B64-4236-B548-752E-D34790DEE8A1" value="true"/>
 </engineerTo>
 <identifying>false</identifying>
-<nameOnSource>has</nameOnSource>
+<nameOnSource>is related</nameOnSource>
 <nameOnTarget>has</nameOnTarget>
 <optionalSource>true</optionalSource>
 <optionalTarget>false</optionalTarget>

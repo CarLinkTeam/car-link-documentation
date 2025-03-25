@@ -1,0 +1,86 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="937C4A89-1097-A3DE-876E-A031472B1778" name="VEHICLES_UNAVAILABILITY">
+<createdBy>Juan David Colonia</createdBy>
+<createdTime>2025-03-25 04:37:56 UTC</createdTime>
+<generatorID>90387EAA-C006-D509-D23B-E1418EE65DBC</generatorID>
+<ownerDesignName>car-link-data-model</ownerDesignName>
+<ordsAlias>vehicle_unavailability</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="id" id="3F1918B4-30B8-1C0C-5EF1-8FE0B9E02E3D">
+<createdBy>Juan David Colonia</createdBy>
+<createdTime>2025-03-25 04:37:56 UTC</createdTime>
+<generatorID>97F9DD6D-0532-B94E-ADBA-C767C7972699</generatorID>
+<ownerDesignName>car-link-data-model</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="unavailable_from" id="A6A77E75-1F6C-6798-27F5-B5B6D019C32C">
+<createdBy>Juan David Colonia</createdBy>
+<createdTime>2025-03-25 04:37:56 UTC</createdTime>
+<generatorID>54DE7CB7-7650-D52C-EB92-1728080B9F57</generatorID>
+<ownerDesignName>car-link-data-model</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT008</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="unavailable_to" id="A21E344F-FE4A-DE26-FED3-401CAFE97BAB">
+<createdBy>Juan David Colonia</createdBy>
+<createdTime>2025-03-25 04:37:56 UTC</createdTime>
+<generatorID>F3D578D5-5A2F-4F9B-68C3-D7102765517E</generatorID>
+<ownerDesignName>car-link-data-model</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT008</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="vehicle_id" id="9D6B5707-A32C-C7C4-D00C-37F7952A0F2C">
+<createdBy>Juan David Colonia</createdBy>
+<createdTime>2025-03-25 04:37:56 UTC</createdTime>
+<generatorID>0DCBF803-C4E3-3127-DFAE-FAF719E244F4</generatorID>
+<ownerDesignName>car-link-data-model</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="8CEFFB31-75D8-EA31-EA68-D71191E55932" referredColumn="1F61621D-7FAD-6B27-8FB8-0EB7C10F355F"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="5FB2086C-BCE2-465C-4643-17663C9D7C51" name="VEHICLE_UNAVAILABILITY_PK">
+<createdBy>Juan David Colonia</createdBy>
+<createdTime>2025-03-25 04:37:56 UTC</createdTime>
+<generatorID>9EE0D8BA-4377-0832-76B4-1790FBE537C0</generatorID>
+<ownerDesignName>car-link-data-model</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="3F1918B4-30B8-1C0C-5EF1-8FE0B9E02E3D"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="41FE6CF4-325C-22DE-EB84-21E698D7FEC2" name="VEHICLE_UNAVAILABILITY_VEHICLE_FK">
+<createdBy>Juan David Colonia</createdBy>
+<createdTime>2025-03-25 04:37:56 UTC</createdTime>
+<generatorID>03EC23AF-2FB6-D1FB-2715-AE2C3F58A9B0</generatorID>
+<ownerDesignName>car-link-data-model</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="9D6B5707-A32C-C7C4-D00C-37F7952A0F2C"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

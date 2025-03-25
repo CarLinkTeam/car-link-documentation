@@ -7,8 +7,8 @@
 <item key="92AE4B64-4236-B548-752E-D34790DEE8A1" value="true"/>
 </engineerTo>
 <identifying>false</identifying>
-<nameOnSource>has</nameOnSource>
-<nameOnTarget>has</nameOnTarget>
+<nameOnSource>is related</nameOnSource>
+<nameOnTarget>grants</nameOnTarget>
 <optionalSource>true</optionalSource>
 <optionalTarget>false</optionalTarget>
 <sourceCardinality>*</sourceCardinality>

@@ -19,15 +19,16 @@
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
 </Column>
-<Column name="status_name" id="33CC24A9-C39D-8ADD-374E-FD381D31555C">
+<Column name="name" id="33CC24A9-C39D-8ADD-374E-FD381D31555C">
 <createdBy>13mig</createdBy>
 <createdTime>2025-03-24 02:13:09 UTC</createdTime>
 <generatorID>76E0F348-F8E2-EE98-24F6-DA3CF183661D</generatorID>
 <ownerDesignName>car-link-data-model</ownerDesignName>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
-<logicalDatatype>A3A3C77D-0366-9768-FF89-1C25E56881C8</logicalDatatype>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100</dataTypeSize>
+<ownDataTypeParameters>100,,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
 </Column>
 </columns>

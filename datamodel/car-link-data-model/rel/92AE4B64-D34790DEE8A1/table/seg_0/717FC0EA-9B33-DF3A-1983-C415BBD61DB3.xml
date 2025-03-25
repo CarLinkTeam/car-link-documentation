@@ -1,27 +1,14 @@
 <?xml version = '1.0' encoding = 'UTF-8'?>
-<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="717FC0EA-9B33-DF3A-1983-C415BBD61DB3" name="PERMISSION_ROLE">
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="717FC0EA-9B33-DF3A-1983-C415BBD61DB3" name="ROLE_PERMISSION">
 <createdBy>13mig</createdBy>
 <createdTime>2025-03-24 02:13:10 UTC</createdTime>
 <ownerDesignName>car-link-data-model</ownerDesignName>
+<ordsAlias>permission_role</ordsAlias>
 <allowColumnReorder>false</allowColumnReorder>
 <existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
 <parsed>true</parsed>
 <columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
-<Column name="PERMISSIONv1_id" id="812FB085-1536-0ABC-E019-D50F6C45935A">
-<createdBy>13mig</createdBy>
-<createdTime>2025-03-24 02:13:10 UTC</createdTime>
-<ownerDesignName>car-link-data-model</ownerDesignName>
-<useDomainConstraints>false</useDomainConstraints>
-<use>1</use>
-<logicalDatatype>LOGDT011</logicalDatatype>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
-<previousColumn>false</previousColumn>
-<autoIncrementCycle>false</autoIncrementCycle>
-<associations>
-<colAssociation fkAssociation="2827685B-92B5-FA05-17BC-0AFA43A2866F" referredColumn="DA0EF50C-DC2B-D158-1291-AF10A7F7E251"/>
-</associations>
-</Column>
-<Column name="ROLE_id" id="BC7BF1B9-FB35-5A12-DB7A-16FFA30DA205">
+<Column name="role_id" id="BC7BF1B9-FB35-5A12-DB7A-16FFA30DA205">
 <createdBy>13mig</createdBy>
 <createdTime>2025-03-24 02:13:10 UTC</createdTime>
 <ownerDesignName>car-link-data-model</ownerDesignName>
@@ -35,9 +22,23 @@
 <colAssociation fkAssociation="B1FE97C5-8491-E53F-2235-084C947FC60E" referredColumn="05033083-9693-C184-126F-EF4BE15AF8A1"/>
 </associations>
 </Column>
+<Column name="permission_id" id="812FB085-1536-0ABC-E019-D50F6C45935A">
+<createdBy>13mig</createdBy>
+<createdTime>2025-03-24 02:13:10 UTC</createdTime>
+<ownerDesignName>car-link-data-model</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="2827685B-92B5-FA05-17BC-0AFA43A2866F" referredColumn="DA0EF50C-DC2B-D158-1291-AF10A7F7E251"/>
+</associations>
+</Column>
 </columns>
 <indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
-<ind_PK_UK id="ABDF6B7F-89D1-45FA-0A29-3AD7365027B6" name="PERMISSION_ROLE_PK">
+<ind_PK_UK id="ABDF6B7F-89D1-45FA-0A29-3AD7365027B6" name="ROLE_PERMISSION_PK">
 <createdBy>13mig</createdBy>
 <createdTime>2025-03-24 02:13:10 UTC</createdTime>
 <ownerDesignName>car-link-data-model</ownerDesignName>
@@ -49,7 +50,7 @@
 <colUsage columnID="BC7BF1B9-FB35-5A12-DB7A-16FFA30DA205"/>
 </indexColumnUsage>
 </ind_PK_UK>
-<ind_PK_UK id="50281C06-C3C1-6731-F1A4-692920539C7E" name="PERMISSION_ROLE_PERMISSIONv1_FK">
+<ind_PK_UK id="50281C06-C3C1-6731-F1A4-692920539C7E" name="ROLE_PERMISSION_PERMISSION_FK">
 <createdBy>13mig</createdBy>
 <createdTime>2025-03-24 02:13:10 UTC</createdTime>
 <generatorID>10BCAB5B-2C43-B854-23F4-8D94064D4323</generatorID>
@@ -60,7 +61,7 @@
 <colUsage columnID="812FB085-1536-0ABC-E019-D50F6C45935A"/>
 </indexColumnUsage>
 </ind_PK_UK>
-<ind_PK_UK id="45484E70-AD75-5EC0-14D5-5B7DF47C692A" name="PERMISSION_ROLE_ROLE_FK">
+<ind_PK_UK id="45484E70-AD75-5EC0-14D5-5B7DF47C692A" name="ROLE_PERMISSION_ROLE_FK">
 <createdBy>13mig</createdBy>
 <createdTime>2025-03-24 02:13:10 UTC</createdTime>
 <generatorID>10BCAB5B-2C43-B854-23F4-8D94064D4323</generatorID>

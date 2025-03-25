@@ -51,6 +51,18 @@
 <logicalDatatype>LOGDT011</logicalDatatype>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
+<Attribute name="status_id" id="97A2EFFC-AA73-D7CC-1A55-510574CB9DE7">
+<createdBy>Juan David Colonia</createdBy>
+<createdTime>2025-03-25 04:06:37 UTC</createdTime>
+<ownerDesignName>car-link-data-model</ownerDesignName>
+<engineerTo>
+<item key="92AE4B64-4236-B548-752E-D34790DEE8A1" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
 <Attribute name="initial_date" id="5308DEAD-2ECA-9E8F-9595-A6BBA94F3427">
 <createdBy>13mig</createdBy>
 <createdTime>2025-03-24 01:23:22 UTC</createdTime>
@@ -75,7 +87,7 @@
 <logicalDatatype>LOGDT008</logicalDatatype>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
-<Attribute name="cost" id="2B85F463-2CF0-CAD4-87B9-7D8BB26BFD66">
+<Attribute name="total_cost" id="2B85F463-2CF0-CAD4-87B9-7D8BB26BFD66">
 <createdBy>13mig</createdBy>
 <createdTime>2025-03-24 01:23:42 UTC</createdTime>
 <ownerDesignName>car-link-data-model</ownerDesignName>
@@ -101,45 +113,9 @@
 <logicalDatatype>LOGDT011</logicalDatatype>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
-<Attribute name="type_fuel" id="58168B02-1CC5-B0A6-CEB6-0C924CA3AC3E">
-<createdBy>13mig</createdBy>
-<createdTime>2025-03-24 02:00:09 UTC</createdTime>
-<ownerDesignName>car-link-data-model</ownerDesignName>
-<engineerTo>
-<item key="92AE4B64-4236-B548-752E-D34790DEE8A1" value="true"/>
-</engineerTo>
-<useDomainConstraints>false</useDomainConstraints>
-<use>1</use>
-<logicalDatatype>A3A3C77D-0366-9768-FF89-1C25E56881C8</logicalDatatype>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
-</Attribute>
-<Attribute name="transmission" id="BB16B9C4-13B4-99CC-120E-FE83391E2896">
-<createdBy>13mig</createdBy>
-<createdTime>2025-03-24 02:01:15 UTC</createdTime>
-<ownerDesignName>car-link-data-model</ownerDesignName>
-<engineerTo>
-<item key="92AE4B64-4236-B548-752E-D34790DEE8A1" value="true"/>
-</engineerTo>
-<useDomainConstraints>false</useDomainConstraints>
-<use>1</use>
-<logicalDatatype>A3A3C77D-0366-9768-FF89-1C25E56881C8</logicalDatatype>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
-</Attribute>
-<Attribute name="city_mpg" id="9F7BCB5E-306F-116B-5E58-40D695673ACE">
-<createdBy>13mig</createdBy>
-<createdTime>2025-03-24 02:01:32 UTC</createdTime>
-<ownerDesignName>car-link-data-model</ownerDesignName>
-<engineerTo>
-<item key="92AE4B64-4236-B548-752E-D34790DEE8A1" value="true"/>
-</engineerTo>
-<useDomainConstraints>false</useDomainConstraints>
-<use>1</use>
-<logicalDatatype>LOGDT011</logicalDatatype>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
-</Attribute>
-<Attribute name="id2" id="54E306B8-7FD3-88AB-F8DE-6740175CF7B2">
-<createdBy>13mig</createdBy>
-<createdTime>2025-03-24 02:11:19 UTC</createdTime>
+<Attribute name="id2" id="43F12099-E7AF-307B-9F33-7D3AEEF0968E">
+<createdBy>Juan David Colonia</createdBy>
+<createdTime>2025-03-25 04:40:36 UTC</createdTime>
 <generatorID>7FD68575-F305-61B3-D50C-6ED57ED33380</generatorID>
 <ownerDesignName>car-link-data-model</ownerDesignName>
 <engineerTo>
@@ -151,14 +127,29 @@
 <logicalDatatype>LOGDT011</logicalDatatype>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
+<Attribute name="id3" id="6585FBAE-C48C-9008-42D9-5CDBC7AC5004">
+<createdBy>Juan David Colonia</createdBy>
+<createdTime>2025-03-25 05:08:12 UTC</createdTime>
+<generatorID>DEDF0F91-E8B8-CCAD-D141-50CE74CABE74</generatorID>
+<ownerDesignName>car-link-data-model</ownerDesignName>
+<engineerTo>
+<item key="92AE4B64-4236-B548-752E-D34790DEE8A1" value="true"/>
+</engineerTo>
+<referedAttribute>EEAB5948-B0E0-FEC8-35E5-D91DA6606356</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
 </attributes>
 <identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
 <identifier id="181D08FC-1190-231C-E887-6CBCA932C38B" name="RENTAL PK">
 <createdBy>13mig</createdBy>
 <createdTime>2025-03-24 00:33:16 UTC</createdTime>
 <ownerDesignName>car-link-data-model</ownerDesignName>
+<shouldEngineer>false</shouldEngineer>
 <engineerTo>
-<item key="92AE4B64-4236-B548-752E-D34790DEE8A1" value="true"/>
+<item key="92AE4B64-4236-B548-752E-D34790DEE8A1" value="false"/>
 </engineerTo>
 <pk>true</pk>
 <usedAttributes>

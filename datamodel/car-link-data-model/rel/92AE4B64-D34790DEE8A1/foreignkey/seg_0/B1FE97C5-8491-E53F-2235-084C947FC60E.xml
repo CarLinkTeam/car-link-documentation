@@ -1,10 +1,10 @@
 <?xml version = '1.0' encoding = 'UTF-8'?>
-<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="B1FE97C5-8491-E53F-2235-084C947FC60E" containerWithKeyObject="717FC0EA-9B33-DF3A-1983-C415BBD61DB3" localFKIndex="45484E70-AD75-5EC0-14D5-5B7DF47C692A" name="PERMISSION_ROLE_ROLE_FK">
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="B1FE97C5-8491-E53F-2235-084C947FC60E" containerWithKeyObject="717FC0EA-9B33-DF3A-1983-C415BBD61DB3" localFKIndex="45484E70-AD75-5EC0-14D5-5B7DF47C692A" name="ROLE_PERMISSION_ROLE_FK">
 <createdBy>13mig</createdBy>
 <createdTime>2025-03-24 02:13:10 UTC</createdTime>
 <generatorID>10BCAB5B-2C43-B854-23F4-8D94064D4323</generatorID>
 <ownerDesignName>car-link-data-model</ownerDesignName>
-<referredTableLongName>ROLE</referredTableLongName>
+<referredTableLongName>ROLES</referredTableLongName>
 <deleteRule>NO ACTION</deleteRule>
 <referredTableID>373454A1-A8A4-9654-1868-762A2CA04F18</referredTableID>
 <keyObject>3A7F6756-D435-5A3C-DE1D-79932DA3D0F1</keyObject>
